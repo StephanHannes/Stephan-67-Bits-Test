@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 1; width: 1080px; height: 1920px; align-items: center; justify-content: center; align-self: center; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:VisualElement name="TopLeft" style="flex-grow: 1; height: 12%; align-items: flex-start; width: 12%; -unity-background-scale-mode: stretch-to-fill; justify-content: flex-start; align-self: flex-start; position: absolute; top: 2%; left: 5%; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0;">
+            <ui:VisualElement name="Settings" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Game/UI/UI_Settings.png?fileID=2800000&amp;guid=1cf8deaca81c3194485621f3367da053&amp;type=3#UI_Settings&quot;); width: 66%; height: auto; -unity-background-scale-mode: scale-to-fit; align-self: auto; align-items: flex-start; justify-content: flex-start;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TopCenter" style="flex-grow: 1; height: 12%; align-items: flex-start; width: 50%; -unity-background-scale-mode: scale-to-fit; justify-content: flex-start; align-self: center; position: absolute; top: 2%; left: auto; background-image: none; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+            <ui:VisualElement name="Leveling" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Game/UI/UI_Leveling.png?fileID=2800000&amp;guid=2ae5573a1d86f0b4f83fb50ea0ffa9c5&amp;type=3#UI_Leveling&quot;); -unity-background-scale-mode: scale-to-fit; width: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="flex-grow: 1; width: 20%; -unity-background-scale-mode: stretch-to-fill; align-items: flex-start; align-self: flex-end; height: 17%; position: absolute; right: 5%; top: 15%;">
+            <ui:VisualElement name="Menu_Gold" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Game/UI/UI_Menu_Gold.png?fileID=2800000&amp;guid=b0643a7dee8d3e948aec973aa4300250&amp;type=3#UI_Menu_Gold&quot;); -unity-background-scale-mode: scale-to-fit; width: 100%; align-self: flex-start; transform-origin: center; height: auto; align-items: auto; max-height: none;" />
+            <ui:VisualElement name="Menu_Wood" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Game/UI/UI_Menu_Wood.png?fileID=2800000&amp;guid=7b033aab5ab6a1e4d8f033e6eddc219c&amp;type=3#UI_Menu_Wood&quot;); -unity-background-scale-mode: scale-to-fit; width: 100%; align-self: flex-start;" />
+            <ui:VisualElement name="Menu_Rock" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Game/UI/UI_Menu_Rock.png?fileID=2800000&amp;guid=de06f738c3e44e24da31c6bbfb7783c1&amp;type=3#UI_Menu_Rock&quot;); width: 100%; height: auto; -unity-background-scale-mode: scale-to-fit; align-self: flex-start;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
